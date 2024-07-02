@@ -58,7 +58,6 @@ const SourcePanel = () => {
       </Form.Field>
       {file ? (
         <SyntaxHighlighter
-          key={file.fileName || i}
           language={file.language || getLanguage(file.fileName, params)}
           showLineNumbers={!hideLineNumbers}
           style={params.style || atomDark}
