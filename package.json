@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Davy803/storybook-code-panel.git"
+    "url": "git@github.com:Taewoong1378/storybook-code-panel.git"
   },
   "keywords": [
     "storybook",
@@ -34,9 +34,5 @@
     "storybook-addon"
   ],
   "author": "David Ly",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Davy803/storybook-code-panel/issues"
-  },
-  "homepage": "https://github.com/Davy803/storybook-code-panel#readme"
+  "license": "MIT"
 }
