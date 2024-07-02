@@ -8,7 +8,7 @@ import { ADDON_ID, PARAM_KEY, PANEL_ID } from "./constants";
 import MyPanel from "./panel";
 
 addons.register(ADDON_ID, (api) => {
-  const render = ({ active, key }) => {
+  const render = ({ active }) => {
     const p = useParameter(PARAM_KEY, null);
 
     if (p === null) {
