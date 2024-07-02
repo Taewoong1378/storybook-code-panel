@@ -14,8 +14,7 @@ addons.register(ADDON_ID, api => {
       return null;
     }
     return /*#__PURE__*/React.createElement(AddonPanel, {
-      active: active,
-      key: key
+      active: active
     }, /*#__PURE__*/React.createElement(MyPanel, null));
   };
   const title = "Code";

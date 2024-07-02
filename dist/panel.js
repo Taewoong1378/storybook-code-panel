@@ -35,7 +35,6 @@ const SourcePanel = () => {
     key: x.fileName,
     value: x.fileName
   }, x.fileName)))), file ? /*#__PURE__*/React.createElement(SyntaxHighlighter, {
-    key: file.fileName || i,
     language: file.language || getLanguage(file.fileName, params),
     showLineNumbers: !hideLineNumbers,
     style: params.style || atomDark
